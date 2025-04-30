@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import './Freelancerform.css';
+
 
 const FreelancerForm = () => {
   const [formData, setFormData] = useState({

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function App() {
+function Calc() {
   const [num1, setNum1] = useState('');
   const [num2, setNum2] = useState('');
   const [result, setResult] = useState(null);
@@ -46,7 +46,7 @@ function App() {
     </div>
   );
 }
-export default App;
+export default Calc;
 
 
 

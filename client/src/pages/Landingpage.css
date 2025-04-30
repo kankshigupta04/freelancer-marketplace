@@ -1,0 +1,38 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .landing-container h1 {
+    font-size: 2.5rem;
+    color: #00796b;
+  }
+  
+  .landing-container p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .button-group button {
+    margin: 10px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #00796b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-group button:hover {
+    background-color: #004d40;
+  }
+  
